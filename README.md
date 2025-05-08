@@ -41,7 +41,11 @@ npm run dev
 
 1. Navigate to the frontend folder:
  cd event-booking-frontend
+
+
 2.Create a .env file:
+
+
 3. Install dependencies and run the frontend:
    npm install
    npm start
@@ -69,6 +73,8 @@ Payment gateway integration
 Event search & filter
 
 Email notifications
+
+
 Thankyou
 
 
