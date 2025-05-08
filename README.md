@@ -1,79 +1,74 @@
-🎫 Event Booking System (MERN Stack)
-This is a full-stack Event Booking System built with the MERN stack (MongoDB, Express, React, Node.js).
+# 🎫 Event Booking System (MERN Stack)
 
- Features
-User Registration & Login (JWT Auth)
+This is a full-stack Event Booking System built with the **MERN stack** – MongoDB, Express, React, and Node.js.
 
-View available events
+---
 
-Book an event (only once)
+## 🚀 Features
 
-View and cancel bookings
+- ✅ User Registration & Login (JWT Auth)
+- 🎟️ View available events
+- 📅 Book an event (only once)
+- 📂 View and cancel bookings
+- 🔒 Protected routes
+- 💻 Responsive UI using Bootstrap
 
-Protected routes
+---
 
-Responsive UI using Bootstrap
+## 🛠️ Tech Stack
 
- Tech Stack
-Frontend: React, Axios, Bootstrap
+- **Frontend**: React, Axios, Bootstrap  
+- **Backend**: Node.js, Express, MongoDB, JWT  
+- **Database**: MongoDB Atlas
 
-Backend: Node.js, Express, MongoDB, JWT
+---
 
-Database: MongoDB Atlas
+## 📦 Setup Instructions
 
-📦 Setup Instructions
-🔹 Backend
-Navigate to the backend folder:
+### 🔹 Backend
 
-bash
-Copy
-Edit
-cd event-booking-backend
-Create a .env file:
-
-env
-Copy
-Edit
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_secret_key
-Install dependencies and run:
-
-bash
-Copy
-Edit
+1. Navigate to the backend folder:
+   ```bash
+   cd event-booking-backend
+2. Create a .env file:
+3. Install dependencies and run the server:
 npm install
 npm run dev
-🔹 Frontend
-Navigate to the frontend folder:
 
-bash
-Copy
-Edit
-cd event-booking-frontend
-Create a .env file:
 
-env
-Copy
-Edit
-REACT_APP_API_URL=http://localhost:5000/api
-Install dependencies and run:
 
-bash
-Copy
-Edit
-npm install
-npm start
-✅ API Endpoints
-POST /api/auth/register – Register new user
+### Frontend
 
-POST /api/auth/login – Login & get JWT
+1. Navigate to the frontend folder:
+ cd event-booking-frontend
+2.Create a .env file:
+3. Install dependencies and run the frontend:
+   npm install
+   npm start
 
-GET /api/events – View all events
 
-POST /api/bookings/:eventId – Book event
+  ✅ API Endpoints
+Method	Endpoint	Description
+POST	/api/auth/register	Register new user
+POST	/api/auth/login	Login & get JWT token
+GET	/api/events	View all events
+POST	/api/bookings/:eventId	Book an event
+GET	/api/bookings	View booking history
+DELETE	/api/bookings/:bookingId	Cancel a booking
 
-GET /api/bookings – View booking history
+🙋‍♀️ Author
+Made with ❤️ by [Manya]
 
-DELETE /api/bookings/:bookingId – Cancel booking
+📌 Note
+This is a basic version for learning and demo purposes. You can enhance it by adding:
 
-THANKYOU
+Admin dashboard
+
+Payment gateway integration
+
+Event search & filter
+
+Email notifications
+Thankyou
+
+
